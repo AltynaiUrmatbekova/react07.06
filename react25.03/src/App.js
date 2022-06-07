@@ -1,3 +1,4 @@
+import List from "./components/List/List";
 
 function App() {
   const vegies = ["Carrot", "Potato", "Strawberry"];
@@ -13,7 +14,7 @@ function App() {
   })
   const plantsList = plants.map((plant)=> {
     return <li>
-      {plant.name}: {plant.color}
+      {plant.name} : {plant.color}
     </li>
   })
 

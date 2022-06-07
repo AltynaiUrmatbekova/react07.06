@@ -1,0 +1,9 @@
+.List {
+   padding-left: 1.5rem;
+    margin-left: 0;
+    border: 1px solid antiquewhite;
+    border-radius: 1rem;
+}
+.List li{
+padding: .5rem 1rem .5rem 0;
+}
